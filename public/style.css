@@ -1,6 +1,7 @@
 body{
     margin-top: 50px;
     text-align:center;
+    background-color:grey;
 }
 h1{
     color:blue;
@@ -17,9 +18,12 @@ h1{
     width: 100px
     background-color:grey;
 }
-.block{
+.block, .calcResult{
     width:100%;
     height:100px;
+    margin:0 auto;
+    background-color:skyblue;
+    text-align:center;
 }
 .firstNum, .secondNum, .operator, .calButton{
     height:40px;
@@ -28,4 +32,10 @@ h1{
 }
 .calButton{
     width:30px;
+}
+.holder{
+    background-color:skyblue;
+    width:60%;
+    margin:0 auto;
+
 }
