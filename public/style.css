@@ -1,0 +1,31 @@
+body{
+    margin-top: 50px;
+    text-align:center;
+}
+h1{
+    color:blue;
+}
+.gravatarInput, .sentenceInput, .dateInput{
+    padding-left:10px;
+    font-size:20px;
+    height:40px;
+    width: 300px;
+}
+.gravatarButton, .sentenceButton, .dateButton{
+    font-size:1.5em;
+    height:45px;
+    width: 100px
+    background-color:grey;
+}
+.block{
+    width:100%;
+    height:100px;
+}
+.firstNum, .secondNum, .operator, .calButton{
+    height:40px;
+    font-size:20px;
+
+}
+.calButton{
+    width:30px;
+}
